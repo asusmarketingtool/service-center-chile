@@ -1,0 +1,19 @@
+{
+  "name": "service-center-chile",
+  "version": "1.0.0",
+  "description": "API de Service Center para Región Metropolitana de Santiago",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":   "nodemon index.js"
+  },
+  "author": "Keren Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors":    "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
